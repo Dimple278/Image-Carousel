@@ -3,15 +3,23 @@
   padding: 0;
   box-sizing: border-box;
 }
+
+
+body{
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
 .carousel-container {
   overflow: hidden;
   position: relative;
   max-width: 640px;
   margin: auto;
-  margin-top: 150px;
 }
 .carousel-image-wrapper {
-  /* background-color: white; */
   position: relative;
   display: flex;
 }
@@ -26,3 +34,4 @@
 .inactive__button {
   transform: scale(1);
 }
+
