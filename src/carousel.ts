@@ -44,7 +44,7 @@ function activeButton(currentIndex: number, navigationCircles: CircleLink[]) {
   });
 }
 
-function animate(slideInt: number, navigationCircles: CircleLink[], event?: Event) {
+function animate(slideInt: number, navigationCircles: CircleLink[]) {
   let leftWidth = parseInt(carouselImageWrapper.style.left);
   if (leftWidth % imageWidth !== 0) {
     return;
